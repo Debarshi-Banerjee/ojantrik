@@ -1,0 +1,103 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+    text-align: center;
+    padding: 20px;
+}
+
+.logo img {
+    max-width: 200px; /* Adjust the size as needed */
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+.cover {
+    background-color: #000;
+    text-align: center;
+}
+
+.cover img {
+    width: 50%;
+}
+
+.video {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+.downloads {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.downloads h2 {
+    color: #fff;
+}
+
+.downloads ul {
+    list-style: none;
+    padding: 0;
+}
+
+.downloads li {
+    margin: 10px 0;
+}
+
+.downloads a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.downloads a:hover {
+    background-color: #45a049;
+}
+
+/* Add the following styles to your existing CSS file or create a new one */
+
+.follow-us {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.follow-us h2 {
+    color: #fff;
+}
+
+.follow-us img {
+    width: 50px; /* Adjust the size of the Instagram icon */
+    height: 50px;
+    border-radius: 50%; /* Make it a circular icon */
+}
