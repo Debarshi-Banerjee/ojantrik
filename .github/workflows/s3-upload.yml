@@ -22,4 +22,4 @@ jobs:
 
     - name: Upload to S3
       run: |
-        aws s3 sync ./ s3://ojantricktheband.link/
+        aws s3 sync ./ s3://ojantriktheband.link/
